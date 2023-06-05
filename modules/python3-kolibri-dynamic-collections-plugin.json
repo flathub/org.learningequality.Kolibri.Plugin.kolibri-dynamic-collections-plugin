@@ -7,8 +7,8 @@
     "sources": [
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/56/0b/7d714f215100e3a565acaee5ad3165dc96df277434af20696cf78d348374/kolibri_dynamic_collections_plugin-1.4.1-py2.py3-none-any.whl",
-            "sha256": "607637f7c25402624c4501a015f115b667a3d4770c2b0ee2ce03476e99845d1b"
+            "url": "https://files.pythonhosted.org/packages/28/83/36770fc7a663efc5fd653635cb7a6439b149b2a3db6db91816ad5614868a/kolibri_dynamic_collections_plugin-1.5.0-py2.py3-none-any.whl",
+            "sha256": "22b44ce2daf6491d1162a1e7ae1ccf76551cd6f0c6f644ab2faf99ae6af31f9b"
         }
     ]
 }
