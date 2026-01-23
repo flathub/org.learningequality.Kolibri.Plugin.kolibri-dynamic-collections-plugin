@@ -15,10 +15,9 @@ modules:
 - name: extra-data
   buildsystem: simple
   sources:
-  - type: dir
-    path: data
-    dest: data
+  - type: file
+    path: data/org.learningequality.Kolibri.Plugin.kolibri-dynamic-collections-plugin.metainfo.xml
   build-commands:
-  - install -Dm644 data/${FLATPAK_ID}.metainfo.xml -t ${FLATPAK_DEST}/share/metainfo
+  - install -Dm644 ${FLATPAK_ID}.metainfo.xml -t ${FLATPAK_DEST}/share/metainfo
   - appstream-compose --basename=${FLATPAK_ID} --prefix=${FLATPAK_DEST} --origin=flatpak ${FLATPAK_ID}
 
